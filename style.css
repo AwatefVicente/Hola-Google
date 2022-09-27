@@ -7,6 +7,7 @@ li{
 }
 
 .button li{
+  color: rgb(58, 58, 58);
   border-radius: 5px;
   background-color: lightgrey;
   height: 40px;
@@ -14,6 +15,7 @@ li{
 }
 
 .header{
+  color: rgb(116, 116, 116);
   background-color: whitevvcd;
   display: flex;
   gap: 30px;
@@ -22,10 +24,6 @@ li{
   align-items: flex-start;
   align-content: space-between;
   flex-direction: row;
-}
-
-connexion{
-  background-color: aqua;
 }
 
 .corpus{
@@ -49,6 +47,7 @@ connexion{
 }
 
 .footer{
+  color: rgb(126, 126, 126);
   background-color: rgba(175, 175, 175, 0.347);
   position: relative;
   bottom: 0;
