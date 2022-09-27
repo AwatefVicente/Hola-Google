@@ -1,0 +1,19 @@
+<style>
+
+body {background-color: rgb(23, 23, 23);}
+
+#conteneur{
+font-size: 16px;
+color: antiquewhite;
+background-color: darkslateblue;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+</style>
