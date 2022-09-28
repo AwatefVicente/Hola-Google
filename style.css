@@ -6,6 +6,16 @@ li{
   display: inline-block;
 }
 
+a{
+  text-decoration: none;
+  color: rgb(58, 58, 58);
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
 .button li{
   color: rgb(58, 58, 58);
   border-radius: 5px;
@@ -15,19 +25,56 @@ li{
 }
 
 .header{
-  color: rgb(116, 116, 116);
   background-color: whitevvcd;
+  margin-top: 30px;
+  margin-right: 10px;
   display: flex;
   gap: 30px;
-  height: 40px;
+  height: 48px;
   justify-content: end;
   align-items: flex-start;
   align-content: space-between;
   flex-direction: row;
 }
 
+.text menu{
+  color: rgb(116, 116, 116)
+}
+
+.apps{
+  height: 20px;
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Connexion{
+  margin-left: 8px;
+  color: #white;
+  text-decoration: none;
+  background-color: #1a73e8;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  margin-right: 8px;
+  padding: 9px 23px;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.Connexion:hover{
+  box-shadow: rgb(126, 126, 126);
+}
+
 .corpus{
-  margin: 200px;
+  margin: 150px;
+  /* width: 100%; */
 }
 
 .logo{
@@ -35,9 +82,21 @@ li{
   justify-content: center;
 }
 
-.search, .button, .place{
+.button, .place{
   display: flex;
   justify-content: center;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  /* width: 50%; */
+}
+
+input{
+  width: 400px;
+  height: 30px;
+  border-radius: 50px;
 }
 
 .button{
@@ -65,8 +124,23 @@ li{
 .various link{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.various link left{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* flex-flow: row wrap; */
+  align-content: space-between;
+}
+
+.various link right{
+  display: flex;
+  justify-content: space-between;
   align-items: flex-end;
-  flex-flow: row wrap;
+  /* flex-flow: row wrap; */
   align-content: space-between;
 }
 
